@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-size: 1em;
+  color: #2B283A;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  height:55px;
+  background-color: #20B2AA;
+}
+
+.navbar--container {
+  display: flex;
+  align-items:  center;
+  margin: auto;
+}
+
+.navbar--img{
+  display: flex;
+  max-width: 100%;
+  height: auto; 
+  margin-right: 7px;   
+}
+
+.navbar--title {
+  display: flex;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
+.card--container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding-top: 40px;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.card--photo-container {
+  display: flex;
+  justify-content: center;
+  max-width: 30%; 
+}
+
+.card--photo {
+  display: flex;
+  width: 100%;;
+
+}
+
+.card--country{
+  text-transform: uppercase;
+  letter-spacing: 17%;
+  padding-left: 4px;
+  padding-right: 12px;
+  font-size: 0.9em;
+}
+
+.card--maps{
+ color:#918E9B;
+ text-decoration: underline; 
+}
+
+.card--data {
+  padding: 19px;
+  font-size: 0.9em;
+  line-height: 170%;
+  max-width: 70%;
+  margin-top: 30px;
+}
+
+.card--title {
+  font-size: 2.7em;
+  font-weight: 700;
+}
+
+.card--date {
+  font-weight: 700;
+}
